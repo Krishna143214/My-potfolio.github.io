@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+}
+
+body {
+    background-color: #14131a;
+}
+
+.parent {
+    height: 13vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: #14131a;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    z-index: 99;
+}
+
+.parent .a {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: rgb(250, 61, 54);
+    margin-bottom: 15px;
+    ;
+
+}
+
+.parent .a1 {
+    margin-left: 50px;
+
+}
+
+.boxxy {
+
+    padding-top: 1.5vh;
+    height: 6vh;
+    width: 9vw;
+    background-color: rgb(250, 61, 54);
+    color: white;
+    padding-left: 1.1vw;
+    border-radius: 10px;
+    margin-left: 1100px;
+    margin-top: 10px;
+    opacity: .5;
+    font-size: 13px;
+
+}
+
+nav .container {
+    height: 86vh;
+    width: 20vw;
+    background-color: #1c1b23;
+    position: fixed;
+    z-index: 99;
+    overflow: auto;
+    top: 10vh;
+    left: 4vh;
+    border-radius: 15px;
+
+}
+
+
+nav .container .k1,
+h2 {
+    margin-top: 50px;
+    margin-left: 45px;
+    position: sticky;
+    opacity: .7;
+
+
+}
+
+
+nav .container div a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+nav .container h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 28px;
+    display: inline-block;
+
+}
+
+#k2 {
+    margin-bottom: 50px;
+    opacity: 1;
+    position: sticky;
+}
+
+main {
+    height: 100vh;
+    width: 78vw;
+    background-color:#14131a;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    overflow: auto;
+}
+
+.raju {
+    width: 1050px;
+    height:160px;
+    margin-left: 16px;
+    background-image: url(cover.jpeg);
+    background-size: cover;
+    background-position: center;
+   filter: blur(7px);
+  
+    
+    
+}
+
+.me{
+    height: 125px;
+    width: 125px;
+    background-image: url(k.png);
+    background-size: cover;
+    background-position: center ;
+    filter: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    border: 5px solid white;
+    
+    
+}
+.mename{
+    position: absolute;
+    top: 55px;
+    left:200px
+}
+.mename {
+    color: #ffffff;
+    font-size: x-large;
+font-weight: bolder;
+z-index: 99;
+font-size: 30px;
+}
+.mename p{
+  
+   line-height: 23px;
+    font-size: .79rem;
+    color: #ffffff;
+    font-weight: lighter;
+    
+}
+.followbox{
+    width: 180px;
+    text-align: center;
+    height: 40px;
+    background-color:#14131a;
+    padding-top: 10px;
+    gap: 5px;
+    position: absolute
+    ;
+    top: 60px;
+    left: 850px;
+border-radius: 10px;
+
+}
+.followbox i{
+    
+    text-decoration: none;
+    margin-right: 10px;
+
+  
+    
+}
+.followbox a{
+    text-decoration: none;
+    color: white;
+}
+
+.followbox2{
+    width: 80px;
+    text-align: center;
+    height: 25px;
+    background-color:#14131a;
+    padding-top: 2px;
+    gap: 5px;
+    position: absolute
+    ;
+    top: 115px;
+    left: 200px;
+border-radius: 10px;
+opacity: 0.9;
+
+}
+.followbox2 i{
+    
+    text-decoration: none;
+    margin-right: 10px;
+
+  
+    
+}
+.followbox2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.89rem;
+
+
+}
+.heading{
+    
+    font-size: 20px;
+    font-weight: normal
+    ;
+
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.alpha{
+    width: 100%;
+    height: 300px;
+    background-color: #14131a;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.alpha a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.ram{
+    margin-bottom: 10px;
+}
+.fristbox{
+    height: 230px;
+    width: 230px;
+    background-color:white;
+    border-radius: 15px;
+    margin-left:40px;
+    margin-top: 10px;
+ 
+}
+.fristbox .img{ height: 130px;
+    width: 100%;
+ background-image: url(download-youtube-video-thumbnail.jpg);
+ background-size: cover;
+ background-position: center;
+border-radius: 15px 15px 0px 0px;
+
+}
+
+.secondbox{
+    height: 230px;
+    width: 230px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.secondbox .img{ height: 130px;
+    width: 100%;
+ background-image: url(spotify-clone.webp);
+ background-size: cover;
+ background-position: center;
+border-radius: 15px 15px 0px 0px;
+
+}
+
+
+.thridbox{
+    height: 230px;
+    width: 230px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.thridbox .img{ height: 130px;
+    width: 100%;
+ background-image: url(amazon-clone.webp);
+ background-size: cover;
+ background-position: center;
+border-radius: 15px 15px 0px 0px;
+
+}
+
+.forthbox{
+    height: 230px;
+    width: 230px;
+    background-color: white ;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+.forthbox .img{ height: 130px;
+    width: 100%;
+ background-image: url(dalle-clone.webp);
+ background-size: cover;
+ background-position: center;
+border-radius: 15px 15px 0px 0px;
+
+}
+.ram:hover{
+    height: 240px;
+    width: 240px;
+    transition-delay: 0.1s;
+    transition-duration: .3s;
+    box-shadow: 0 0 50px 15px #25c6f2;
+   
+}
+
+.ram2:hover{
+    height: 240px;
+    width: 240px;
+    transition-delay: 0.1s;
+    transition-duration: .3s;
+    box-shadow: 0 0 50px 15px #02ce83;
+}
+
+.ram3:hover{
+    height: 240px;
+    width: 240px;
+    transition-delay: 0.1s;
+    transition-duration: .3s;
+    box-shadow: 0 0 50px 15px white;
+}
+.ram4:hover{
+    height: 240px;
+    width: 240px;
+    transition-delay: 0.1s;
+    transition-duration: .3s;
+    box-shadow: 0 0 50px 15px #bd6095;
+}
+
+
