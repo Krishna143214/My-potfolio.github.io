@@ -549,6 +549,7 @@ main {
         border-radius: 0px;
         
 left: -100%;
+overflow: auto;
     }
 
     nav .container .k1,
@@ -645,8 +646,8 @@ left: -100%;
         gap: 5px;
         position: absolute;
 
-        top: 102px;
-        left: 320px;
+        top: 109px;
+        left: 290px;
         border-radius: 10px;
 
 
@@ -861,11 +862,11 @@ gap: 50px;
 .boxxy {
 
    
-    height: 40px;
+    height: 34px;
     width: 140px;
     background-color: rgb(250, 61, 54);
     color: white;
-  
+text-align: center;
     border-radius: 10px;
     margin-left: 10px;
     margin-top: 10px;
@@ -877,7 +878,7 @@ gap: 50px;
 }
 #checkbtn{
     display: block;
-margin-left: 219px;
+margin-left: 195px;
 }
 nav div,.rom{
     width: 100%;
