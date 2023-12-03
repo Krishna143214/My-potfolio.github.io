@@ -10,6 +10,13 @@ html {
     width: 100%;
 }
 
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+
 body {
     background-color: #14131a;
 }
@@ -64,8 +71,8 @@ nav .container {
     position: fixed;
     z-index: 99;
     overflow: auto;
-    top: 10vh;
-    left: 4vh;
+    top: 60px;
+    left: 20px;
     border-radius: 15px;
 
 }
@@ -105,10 +112,10 @@ nav .container h2 {
 }
 
 main {
- 
-width: 78vw; 
-height: 490px;
-    background-color:#14131a;
+
+    width: 78vw;
+    height: 490px;
+    background-color: #14131a;
     position: absolute;
     top: 80px;
     right: 0px;
@@ -117,219 +124,237 @@ height: 490px;
 
 .raju {
     width: 1050px;
-    height:160px;
+    height: 160px;
     margin-left: 16px;
     background-image: url(cover.jpeg);
     background-size: cover;
     background-position: center;
-   filter: blur(7px);
-  
-    
-    
+    filter: blur(7px);
+
+
+
 }
 
-.me{
+.me {
     height: 125px;
     width: 125px;
     background-image: url(k.png);
     background-size: cover;
-    background-position: center ;
+    background-position: center;
     filter: none;
     border-radius: 50%;
     position: absolute;
     top: 20px;
     left: 40px;
     border: 5px solid white;
-    
-    
+
+
 }
-.mename{
+
+.mename {
     position: absolute;
     top: 55px;
-    left:200px
+    left: 200px
 }
+
 .mename {
     color: #ffffff;
     font-size: x-large;
-font-weight: bolder;
-z-index: 99;
-font-size: 30px;
+    font-weight: bolder;
+    z-index: 99;
+    font-size: 30px;
 }
-.mename p{
-  
-   line-height: 23px;
+
+.mename p {
+
+    line-height: 23px;
     font-size: .79rem;
     color: #ffffff;
     font-weight: lighter;
-    
+
 }
-.followbox{
+
+.followbox {
     width: 180px;
     text-align: center;
     height: 40px;
-    background-color:#14131a;
+    background-color: #14131a;
     padding-top: 10px;
     gap: 5px;
-    position: absolute
-    ;
+    position: absolute;
     top: 60px;
     left: 850px;
-border-radius: 10px;
+    border-radius: 10px;
 
 
 
 }
-.followbox i{
-    
+
+.followbox i {
+
     text-decoration: none;
     margin-right: 10px;
 
-  
-    
+
+
 }
-.followbox a{
+
+.followbox a {
     text-decoration: none;
     color: white;
 }
 
-.followbox2{
+.followbox2 {
     width: 80px;
     text-align: center;
     height: 25px;
-    background-color:#14131a;
+    background-color: #14131a;
     padding-top: 2px;
     gap: 5px;
-    position: absolute
-    ;
+    position: absolute;
     top: 115px;
     left: 200px;
-border-radius: 10px;
-opacity: 0.9;
+    border-radius: 10px;
+    opacity: 0.9;
 
 }
-.followbox2 i{
-    
+
+.followbox2 i {
+
     text-decoration: none;
     margin-right: 10px;
 
-  
-    
+
+
 }
-.followbox2 a{
+
+.followbox2 a {
     text-decoration: none;
     color: white;
     font-size: 0.89rem;
 
 
 }
-.heading{
-    
+
+.heading {
+
     font-size: 20px;
-    font-weight: normal
-    ;
+    font-weight: normal;
 
     color: white;
     margin-top: 30px;
     margin-left: 50px;
 }
 
-.alpha{
-   
+.alpha {
+
     width: 100%;
     height: 240px;
-    background-color:#14131a;
+    background-color: #14131a;
     display: flex;
     justify-content: start;
     align-items: center;
     margin-top: 15px;
-  
- 
-  
+    flex-direction: row;
+
+
+
 }
-.alpha a{
+
+.alpha a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
-.ram{
+.ram {
     margin-bottom: 10px;
 }
-.fristbox{
+
+.fristbox {
     height: 230px;
     width: 230px;
-    background-color:white;
+    background-color: white;
     border-radius: 15px;
-    margin-left:40px;
+    margin-left: 40px;
     margin-top: 10px;
- 
+
 }
-.fristbox .img{ height: 130px;
+
+.fristbox .img {
+    height: 130px;
     width: 100%;
- background-image: url(Untitled.png);
- background-size: cover;
- background-position: center;
-border-radius: 15px 15px 0px 0px;
+    background-image: url(Untitled.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
 
 }
 
-.secondbox{
+.secondbox {
     height: 230px;
     width: 230px;
     background-color: white;
     border-radius: 15px;
     margin-left: 20px;
 }
-.secondbox .img{ height: 130px;
+
+.secondbox .img {
+    height: 130px;
     width: 100%;
- background-image: url(spotify-clone.webp);
- background-size: cover;
- background-position: center;
-border-radius: 15px 15px 0px 0px;
+    background-image: url(spotify-clone.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
 
 }
 
 
-.thridbox{
+.thridbox {
     height: 230px;
     width: 230px;
     background-color: white;
     border-radius: 15px;
     margin-left: 20px;
 }
-.thridbox .img{ height: 130px;
+
+.thridbox .img {
+    height: 130px;
     width: 100%;
- background-image: url(amazon-clone.webp);
- background-size: cover;
- background-position: center;
-border-radius: 15px 15px 0px 0px;
+    background-image: url(amazon-clone.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
 
 }
 
-.forthbox{
+.forthbox {
     height: 230px;
     width: 230px;
-    background-color: white ;
+    background-color: white;
     border-radius: 15px;
     margin-left: 20px;
 }
-.forthbox .img{ height: 130px;
+
+.forthbox .img {
+    height: 130px;
     width: 100%;
- background-image: url(dalle-clone.webp);
- background-size: cover;
- background-position: center;
-border-radius: 15px 15px 0px 0px;
+    background-image: url(dalle-clone.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
 
 }
-.ram:hover{
+
+.ram:hover {
     height: 240px;
     width: 240px;
     transition-delay: 0.1s;
     transition-duration: .3s;
     box-shadow: 0 0 50px 15px #f80b0b;
-   
+
 }
 
-.ram2:hover{
+.ram2:hover {
     height: 240px;
     width: 240px;
     transition-delay: 0.1s;
@@ -337,14 +362,15 @@ border-radius: 15px 15px 0px 0px;
     box-shadow: 0 0 50px 15px #02ce83;
 }
 
-.ram3:hover{
+.ram3:hover {
     height: 240px;
     width: 240px;
     transition-delay: 0.1s;
     transition-duration: .3s;
     box-shadow: 0 0 50px 15px white;
 }
-.ram4:hover{
+
+.ram4:hover {
     height: 240px;
     width: 240px;
     transition-delay: 0.1s;
@@ -352,93 +378,96 @@ border-radius: 15px 15px 0px 0px;
     box-shadow: 0 0 50px 15px #bd6095;
 }
 
-.nandu h3{
+.nandu h3 {
     font-size: 15px;
     font-weight: bold;
     margin-top: 10px;
     margin-left: 20px;
 
 }
-.nandu p{
+
+.nandu p {
     font-size: 0.80rem;
 
     margin-left: 20px;
 }
- .mnn{
+
+.mnn {
     color: white;
     text-transform: capitalize;
     font-size: 19px;
     margin-top: 90px;
     margin-left: 80px;
- 
- }
 
- .child0{
+}
+
+.child0 {
     display: flex;
- justify-content: flex-start;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 29px;
- }
+}
 
- .ch{
+.ch {
     height: 340px;
     width: 215px;
-    background-color:#1c1b23;
+    background-color: #1c1b23;
     margin-top: 27px;
     border-radius: 10px;
- box-shadow: 20px 0 20px  0 #0e0c0c;
-  
-    
- }
- .child1{
-    margin-left: 80px;
- }
+    box-shadow: 20px 0 20px 0 #0e0c0c;
 
- .ch p{
+
+}
+
+.child1 {
+    margin-left: 80px;
+}
+
+.ch p {
     font-size: 20px;
     color: #89888f;
     text-transform: capitalize;
     margin-left: 18px;
-  margin-top: 29px;
+    margin-top: 29px;
 
- }
+}
 
 
- .child1 krishna {
+.child1 krishna {
     font-size: .95rem;
-    margin-left: 20px; 
- line-height: 59px;
- border: 1px solid red ;
- padding: 10px;
- border-radius: 20px;
- color: white;
- }
+    margin-left: 20px;
+    line-height: 59px;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
 
- .child2 krishna {
+.child2 krishna {
     font-size: .95rem;
-    margin-left: 20px; 
- line-height: 59px;
- border: 1px solid rgb(33, 111, 255) ;
- padding: 10px;
- border-radius: 20px;
- color: white;
- }
+    margin-left: 20px;
+    line-height: 59px;
+    border: 1px solid rgb(33, 111, 255);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
 
- .child3 krishna {
+.child3 krishna {
     font-size: .95rem;
-    margin-left: 20px; 
- line-height: 59px;
- border: 1px solid rgb(0, 255, 42) ;
- padding: 10px;
- border-radius: 20px;
- color: white;
- }
+    margin-left: 20px;
+    line-height: 59px;
+    border: 1px solid rgb(0, 255, 42);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
 
- .messi{
+.messi {
     height: 500px;
     width: 210px;
     background-color: #14131a;
-    box-shadow: 10px 0 20px  0 #0e0c0c;
+    box-shadow: 10px 0 20px 0 #0e0c0c;
     position: relative;
     left: 820px;
     bottom: 400px;
@@ -446,42 +475,411 @@ border-radius: 15px 15px 0px 0px;
     color: #ffffff;
     text-transform: capitalize;
 
- }
+}
 
- .messi .p{
+.messi .p {
     margin-left: 37px;
-padding-top: 25px;
- }
- .messi i {
+    padding-top: 25px;
+}
+
+.messi i {
     margin-left: 95px;
     margin-top: 20px;
 
- }
+}
 
- .messi  .pa{
-   margin-left: 70px;
-margin-top: 15px;
- }
+.messi .pa {
+    margin-left: 70px;
+    margin-top: 15px;
+}
 
- .paa{
-  margin-top: 10px;
+.paa {
+    margin-top: 10px;
     margin-left: 35px;
- }
- .kaa{
+}
+
+.kaa {
     margin-left: 70px;
     margin-top: 10px;
- }
+}
 
- .raaa{
+.raaa {
     margin-left: 60px;
-    margin-top: 
-    10px;
- }
- .eeee{
+    margin-top:
+        10px;
+}
+
+.eeee {
     margin-left: 65px;
     margin-top: 10px;
+
+}
+#checkbtn{display: none;}
+
+#check{
+    display: none;
+}
+#check:checked ~ .container{left: 0;}
+
+/* media qurey */
+
+
+@media (width <=400px) {
+
+    .parent .a {
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-color: rgb(250, 61, 54);
+        margin-bottom: 15px;
+        ;
+    display: none;
+    }
+    nav .container {
+        height: 100vh;
+        width:100%;
+        display: flex;
+        gap: 0px;
+        
+        align-items: flex-start;
+        flex-direction: column;
+        overflow: hidden;
+        position: absolute;
+        top: 80px;
+        border-radius: 0px;
+        
+left: -100%;
+    }
+
+    nav .container .k1,
+    h2 {
+        margin-top: 50px;
+        margin-left: 45px;
+        position: sticky;
+        opacity: .7;
     
- }
+    
+    }
+    
+
+    nav {
+        width: 100%;
+
+    }
+
+    main {
+        height: 100vh;
+        width: 100vw;
+        overflow: auto;
+
+
+    }
+
+    nav .container div a {
+        text-decoration: none;
+        color: white;
+        margin-left: 30px;
+        font-size: 20px;
+      
+    }
+
+    .raju {
+        width: 400px;
+        height: 160px;
+        margin-left: 0px;
+        background-image: url(cover.jpeg);
+        background-size: cover;
+        background-position: center;
+        filter: blur(7px);
+    }
+
+    .me {
+        height: 110px;
+        width: 110px;
+        background-image: url(k.png);
+        background-size: cover;
+        background-position: center;
+        filter: none;
+        border-radius: 50%;
+        position: absolute;
+        top: 36px;
+        left: 50px;
+        border: 5px solid white;
+    }
+
+    .mename {
+        position: absolute;
+        top: 59px;
+        left: 200px
+    }
+
+    .mename {
+        color: #ffffff;
+        font-size: x-large;
+        font-weight: bolder;
+        z-index: 0;
+        font-size: 21px;
+    }
+
+    .mename p {
+
+        line-height: 23px;
+        font-size: .69rem;
+        color: #ffffff;
+        font-weight: lighter;
+
+    }
+
+    .followbox2 {
+        margin-right: 900px;
+
+
+    }
+
+    .followbox {
+        width: 40px;
+
+        height: 38px;
+        background-color: #14131a;
+
+        gap: 5px;
+        position: absolute;
+
+        top: 102px;
+        left: 320px;
+        border-radius: 10px;
 
 
 
+    }
+
+    .followbox i {
+
+        text-decoration: none;
+        margin-left: 10px;
+        font-size: 25px;
+        padding: auto;
+
+
+
+
+
+    }
+
+    .followbox a {
+        text-decoration: none;
+        color: white;
+        font-size: 0px;
+    }
+
+    
+.alpha {
+
+    width: 100%;
+    height: 240px;
+    background-color: #14131a;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+    flex-direction: column;
+gap: 50px;
+
+
+}
+.ram {
+    margin-bottom: 0px;
+}
+
+.fristbox {
+    height: 230px;
+    width: 230px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 00px;
+    margin-top: 10px;
+
+}
+
+
+.mnn {
+    color: white;
+    text-transform: capitalize;
+    font-size: 19px;
+    margin-top: 1220px;
+    margin-left: 80px;
+
+}
+
+.child0 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.ram {
+    margin-bottom: 10px;
+}
+
+.fristbox {
+    height: 230px;
+    width: 230px;
+    background-color: white;
+    border-radius: 15px;
+    margin-right: 0px;
+    margin-left: 15px;
+    margin-top: 30px;
+
+}
+.child1 {
+    margin-left: 0px;
+}
+
+.fristbox {
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 0px;
+    margin-top: 50px;
+
+}
+
+.fristbox .img {
+    height: 190px;
+    width: 100%;
+    background-image: url(Untitled.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+.secondbox {
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 0px;
+}
+
+.secondbox .img {
+    height: 190px;
+    width: 100%;
+    background-image: url(spotify-clone.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+
+.thridbox {
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 0px;
+}
+
+.thridbox .img {
+    height: 190px;
+    width: 100%;
+    background-image: url(amazon-clone.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+
+}
+
+.forthbox {
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: 0px;
+}
+
+.forthbox .img {
+    height: 190px;
+    width: 100%;
+    background-image: url(dalle-clone.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.ram:hover {
+    height: 320px;
+    width: 320px;
+    transition-delay: 0.1s;
+    transition-duration: .3s;
+    box-shadow: 0 0 50px 15px #f80b0b;
+
+}
+
+.ram2:hover {
+    height: 320px;
+    width: 320px;
+    transition-delay: 0.1s;
+    transition-duration: .3s;
+    box-shadow: 0 0 50px 15px #02ce83;
+}
+
+.ram3:hover {
+    height: 320px;
+    width: 320px;
+    transition-delay: 0.1s;
+    transition-duration: .3s;
+    box-shadow: 0 0 50px 15px white;
+}
+
+.ram4:hover {
+    height: 320px;
+    width: 320px;
+    transition-delay: 0.1s;
+    transition-duration: .3s;
+    box-shadow: 0 0 50px 15px #bd6095;
+}
+
+.messi {
+    height: 500px;
+    width: 210px;
+    background-color: #14131a;
+    box-shadow: 10px 0 20px 0 #0e0c0c;
+   
+ position: relative;
+ left: 11vh;
+ top: 100px;
+    font-size: 21px;
+    color: #ffffff;
+    text-transform: capitalize;
+
+}
+
+.boxxy {
+
+   
+    height: 40px;
+    width: 140px;
+    background-color: rgb(250, 61, 54);
+    color: white;
+  
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    opacity: .5;
+    font-size: 13px;
+    margin-bottom: 20px;
+  
+
+}
+#checkbtn{
+    display: block;
+margin-left: 219px;
+}
+nav div,.rom{
+    width: 100%;
+}
+}
