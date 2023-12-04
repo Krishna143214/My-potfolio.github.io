@@ -856,7 +856,7 @@ gap: 50px;
    border-image: linear-gradient(green,red,blue,purple,hotpink);
  border-image-slice: 1;
    position: relative;
- left: 10vh;
+ left: 12vh;
  top: 50px;
     font-size: 21px;
     color: #ffffff;
@@ -884,7 +884,7 @@ text-align: center;
 }
 #checkbtn{
     display: block;
-margin-left: 170px;
+margin-left: 165px;
 }
 nav div,.rom{
     width: 100%;
