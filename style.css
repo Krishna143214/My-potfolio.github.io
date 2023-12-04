@@ -1,4 +1,4 @@
-* {
+   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -521,10 +521,12 @@ main {
 }
 #check:checked ~ .container{left: 0;}
 
+
 /* media qurey */
 
 
 @media (width <=400px) {
+
 
     .parent .a {
         height: 18px;
@@ -849,10 +851,13 @@ gap: 50px;
     width: 210px;
     background-color: #14131a;
     box-shadow: 10px 0 20px 0 #0e0c0c;
-   
- position: relative;
- left: 11vh;
- top: 100px;
+   border: 4px solid transparent;
+  
+   border-image: linear-gradient(green,red,blue,purple,hotpink);
+ border-image-slice: 1;
+   position: relative;
+ left: 9vh;
+ top: 50px;
     font-size: 21px;
     color: #ffffff;
     text-transform: capitalize;
@@ -863,13 +868,14 @@ gap: 50px;
 
    
     height: 34px;
-    width: 140px;
+    width: 170px;
     background-color: rgb(250, 61, 54);
     color: white;
 text-align: center;
     border-radius: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 0px;
+    margin-top: 20px;
+    margin-right: 50px;
     opacity: .5;
     font-size: 13px;
     margin-bottom: 20px;
@@ -878,9 +884,16 @@ text-align: center;
 }
 #checkbtn{
     display: block;
-margin-left: 198px;
+margin-left: 130px;
 }
 nav div,.rom{
     width: 100%;
 }
+
+
+
+.ch{  border: 4px solid transparent;
+  
+    border-image: linear-gradient(45deg,#ff0,#f0f,#f00,#00f,#0f0);
+  border-image-slice: 1;}
 }
